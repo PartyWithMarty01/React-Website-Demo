@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.text-background{
+  background-color: #f4f4f4;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  display: inline-block; 
+}
+
+.App-header {
+  background-color: #819ca1;
+  background-image: url(/Users/martinearle/Downloads/116434799_10223312216414516_6939338945100287664_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  font-synthesis: style weight;
+  color: rgb(253, 0, 0);
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%; 
+  margin: 20px 0;
+}
+
+thead th {
+  background-color: #6f2020;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #cccccc; 
+  font-size: 1rem;
+}
+
+tbody th {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  font-weight: bold;
+}
+
+tbody td:hover {
+  background-color: #499296;
+  cursor: pointer;
+}
+
+tbody tr {
+  background-color: #ffffff;
+  opacity: 5;
+}
+
+table, th, td {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+
+  thead th, tbody th, tbody td {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}
